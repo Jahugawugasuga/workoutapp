@@ -20,6 +20,9 @@ This workout application utilizes express, mongoose, morgan and router, along wi
 * Morgan
 * Router
 
+## Link to Deployed app
+https://workouttracker.herokuapp.com/exercise?id=5f1a591a6bd8720017345485
+
 ## Future Development
 * Add PWA for increased user experience
 * More charts, more inputs
