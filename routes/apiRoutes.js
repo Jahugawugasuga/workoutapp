@@ -26,7 +26,7 @@ router.post("/workouts", function (req, res) {
 });
 router.put("/workouts/:id", function (req, res) {
     db.Workout.update({
-        _id: req.params.id
+        _id: req.params.id //its a mongoose thing, ids always have _ 
     }, {
         $push: { exercises:req.body }
     })
